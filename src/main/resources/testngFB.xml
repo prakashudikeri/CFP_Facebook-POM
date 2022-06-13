@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Test Suite">
+    <listeners>
+        <listener class-name="com.bridgelabz.pom.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Facebook Test Cases">
+        <classes>
+            <class name="com.bridgelabz.pomtest.FindFriendsTest">
+            </class>
+            <class name="com.bridgelabz.pomtest.HomePageTest">
+            </class>
+            <class name="com.bridgelabz.pomtest.LoginPageTest">
+            </class>
+            <class name="com.bridgelabz.pomtest.ProfilePageTest">
+            </class>
+        </classes>
+    </test>
+</suite>
